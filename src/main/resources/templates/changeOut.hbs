@@ -1,0 +1,21 @@
+
+{{#partial "title" }}
+  Your change is
+{{/partial}}
+
+
+{{#partial "content"}}
+
+ <li><img src='/images/images.jpg' alt='A photo of a coin stack.'/></li>
+ <li><img src='/images/img-thing.jpg' alt='Another picture'/></li>
+</ul>
+<h3><strong>Total Cash: </strong>{{ totalCash }}</h3>
+<h3><strong>Your Change: </strong>{{ changeString }},</h3>
+
+{{/partial}}
+
+{{#partial "footer"}}
+<p> Thanks {{inputName}}, come back soon.<p>
+{{/partial}}
+
+{{> layout.hbs}}
